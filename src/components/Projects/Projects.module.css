@@ -1,0 +1,368 @@
+.projects {
+    background-color: #F2F5F8;
+    padding-bottom: 40px;
+}
+
+.projects h1 {
+    text-align: center;
+    margin: 30px;
+    font-weight: 700;
+}
+
+.cards_1 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+/* amazon projects  */
+.amazon_card {
+    position: relative;
+    background-image: url('../../assets/amazon.jpeg');
+    height: 310px;
+    width: 310px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.amazon_card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0);
+    transition: background-color 0.3s ease;
+}
+
+.amazon_card:hover::after {
+    background-color: #546BC1;
+}
+
+.amazon_text {
+    position: relative;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    display: none;
+    z-index: 1;
+}
+
+.amazon_text button {
+    border: 1px solid white;
+    outline: 4px;
+    background: transparent;
+    color: white;
+    padding: 5px;
+}
+
+.amazon_text button:hover {
+    background-color: white;
+    color: rgb(109, 107, 107);
+}
+
+.amazon_card:hover .amazon_text {
+    display: block;
+}
+
+/* end amazon projects  */
+
+
+/* apple project start */
+.apple_card {
+    position: relative;
+    background-image: url('../../assets/apple-react.jpeg');
+    height: 310px;
+    width: 310px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+}
+
+.apple_card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0);
+    transition: background-color 0.3s ease;
+}
+
+.apple_card:hover::after {
+    background-color: #546BC1;
+}
+
+.apple_text {
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    display: none;
+    z-index: 1;
+}
+
+.apple_text button {
+    border: 1px solid white;
+    outline: 4px;
+    background: transparent;
+    color: white;
+    padding: 5px;
+}
+
+.apple_text button:hover {
+    background-color: rgb(255, 253, 253);
+    color: rgb(109, 107, 107);
+}
+
+.apple_card:hover .apple_text {
+    display: block;
+}
+
+/* the apple projects ended */
+
+
+/* netflix projects start  */
+.netflix_card {
+    position: relative;
+    background-image: url('../../assets/netflix.jpg');
+    height: 310px;
+    width: 310px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.netflix_card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0);
+    transition: background-color 0.3s ease;
+}
+
+.netflix_card:hover::after {
+    background-color: #546BC1;
+}
+
+.netflix_text {
+    position: relative;
+    margin-top: 80px;
+    text-align: center;
+    color: white;
+    display: none;
+    z-index: 1;
+
+}
+
+.netflix_text button {
+    border: 1px solid white;
+    outline: 4px;
+    background: transparent;
+    color: white;
+    padding: 5px;
+}
+
+.netflix_text button:hover {
+    background-color: rgb(255, 253, 253);
+    color: rgb(109, 107, 107);
+}
+
+.netflix_card:hover .netflix_text {
+    display: block;
+}
+
+/* the second card starting point  */
+.cards_2 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.apple_bootstrap_card {
+    position: relative;
+    background-image: url('../../assets/apple-bootstrap.jpeg');
+    height: 310px;
+    width: 310px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.apple_bootstrap_card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0);
+    transition: background-color 0.3s ease;
+}
+
+.apple_bootstrap_card:hover::after {
+    background-color: #546BC1;
+}
+
+.apple_bootstrap_text {
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    display: none;
+    z-index: 1;
+
+}
+
+.apple_bootstrap_text button {
+    border: 1px solid white;
+    outline: 4px;
+    background: transparent;
+    color: white;
+    padding: 5px;
+}
+
+.apple_bootstrap_text button:hover {
+    background-color: rgb(255, 253, 253);
+    color: rgb(109, 107, 107);
+}
+
+.apple_bootstrap_card:hover .apple_bootstrap_text {
+    display: block;
+}
+
+/* apple bootstrap project end point  */
+
+
+
+/* the snake game projects are start  */
+.snake_card {
+    position: relative;
+    background-image: url('../../assets/snake-game.jpeg');
+    height: 310px;
+    width: 310px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.snake_card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0);
+    transition: background-color 0.3s ease;
+}
+
+.snake_card:hover::after {
+    background-color: #546BC1;
+}
+
+.snake_text {
+    position: relative;
+    margin-top: 70px;
+    text-align: center;
+    color: white;
+    display: none;
+    z-index: 1;
+
+}
+
+.snake_text button {
+    border: 1px solid white;
+    outline: 4px;
+    background: transparent;
+    color: white;
+    padding: 5px;
+}
+
+.snake_text button:hover {
+    background-color: rgb(255, 253, 253);
+    color: rgb(109, 107, 107);
+}
+
+.snake_card:hover .snake_text {
+    display: block;
+}
+
+.calculator_card {
+    background-color: lightskyblue;
+    position: relative;
+    background-image: url('../../assets/cal.png');
+    height: 310px;
+    width: 310px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.calculator_card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0);
+    transition: background-color 0.3s ease;
+}
+
+.calculator_card:hover::after {
+    background-color: #546BC1;
+}
+
+.calculator_card img {
+    position: absolute;
+    bottom: 0;
+    left: 120px;
+
+}
+
+.calculator_text {
+    position: relative;
+    margin-top: 70px;
+    text-align: center;
+    color: white;
+    display: none;
+    z-index: 1;
+
+}
+
+.calculator_text button {
+    border: 1px solid white;
+    outline: 4px;
+    background: transparent;
+    color: white;
+    padding: 5px;
+}
+
+.calculator_text button:hover {
+    background-color: rgb(255, 253, 253);
+    color: rgb(109, 107, 107);
+}
+
+.calculator_card:hover .calculator_text {
+    display: block;
+}
+
+@media screen and (max-width:768px) {
+
+    .cards_1,
+    .cards_2 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
