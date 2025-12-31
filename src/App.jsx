@@ -1,6 +1,6 @@
 
 import './App.css'
-import AboutMe from './components/Aboutme/AboutMe'
+import AboutMe from './components/AboutMe/AboutMe'
 import Contact from './components/Contact/Contact'
 import Hero from './components/Hero/Hero'
 import PortfolioNavbar from './components/PortfolioNavbar/PortfolioNavbar'
