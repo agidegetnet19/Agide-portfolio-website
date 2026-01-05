@@ -1,9 +1,11 @@
-#resume h2 {
-    font-weight: 700;
-    padding-top: 10px;
-    padding-right: 150px;
-}
+@media screen and (min-width:768px) {
+    #resume h2 {
+        font-weight: 700;
+        padding-top: 10px;
+        padding-right: 150px;
+    }
 
-#button {
-    padding-right: 150px;
+    #button {
+        padding-right: 150px;
+    }
 }
